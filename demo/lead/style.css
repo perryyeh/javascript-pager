@@ -1,0 +1,31 @@
+BODY{font-size:9pt;COLOR:black;FONT-FAMILY:"ËÎÌו";BACKGROUND-COLOR:white;background-image:url(/images/skin/5/bg.gif);background-position:center;}
+TEXTAREA{FONT-SIZE:9pt}
+INPUT{FONT-SIZE:9pt;HEIGHT:20px}
+SELECT{FONT-SIZE:9pt;HEIGHT:20px}
+input.fminpt{BORDER-RIGHT:gray 1px solid;BORDER-TOP:gray 1px solid;FONT-SIZE:9pt;BORDER-LEFT:gray 1px solid;BORDER-BOTTOM:gray 1px solid;HEIGHT:19px;}
+input.fmchkbox{FONT-SIZE:9pt;}
+.fmtxtra{BORDER-RIGHT:gray 1px solid;BORDER-TOP:gray 1px solid;FONT-SIZE:9pt;BORDER-LEFT:gray 1px solid;BORDER-BOTTOM:gray 1px solid}
+.fmbtn{border:1px solid gray;height:20px;font:"menu";}
+P{FONT-SIZE:9pt;}
+TD{FONT-SIZE:9pt;}
+LI{FONT-SIZE:9pt;MARGIN-LEFT:0pt;}
+UL{FONT-SIZE:9pt;MARGIN-LEFT:20pt;}
+A{COLOR:black;TEXT-DECORATION:none}
+A:hover{COLOR:black;TEXT-DECORATION:underline}
+.TBTop{BACKGROUND-COLOR:white}
+.TBHead{BACKGROUND-COLOR:#EFEEE9}
+.HeadFont{COLOR:#36361B}
+.TBHead2{BACKGROUND-COLOR:#EFEEE9}
+.TBBG9{BACKGROUND-COLOR:white;}
+.TBBG1{BACKGROUND-COLOR:#F8F8F3;}
+.TBone{BACKGROUND-COLOR:#F8F8F3}
+.TBthree{BACKGROUND-COLOR:white}
+.TBfour{BACKGROUND-COLOR:#F8F8F3}
+.TBtwofont{COLOR:#996600}
+.TBframeButton{BACKGROUND-COLOR:#C5C0A8}
+.TBframeBG{BACKGROUND-COLOR:#F1F1EC}
+.RedFont{COLOR:red}
+.TBMenu{BACKGROUND-COLOR:#D8D3C9}
+.MenuBG{BACKGROUND-COLOR:#F8F8F3}
+.MenuColor{BACKGROUND-COLOR:#E0DCD3}
+.uname{font-family: Tahoma, Verdana;font-weight: bold;}

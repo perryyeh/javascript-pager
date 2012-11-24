@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>ShowoPage Style With JS-其他样式-PowerBy Yehe(叶子)</TITLE>
+<style type=text/css>
+BODY{FONT-SIZE: 11.5px;COLOR: #000000;FONT-FAMILY: Verdana,宋体;
+font{line-height : normal ;}
+</style>
+<Script Language="JavaScript" type="text/JavaScript" src="../Cls_jsPage.js"></Script>
+</HEAD>
+<BODY>
+总记录951，每页15，10个间隔跳跃<BR><BR><BR><BR>
+<Script Language="JavaScript" type="text/JavaScript" >
+var ss= new Cls_jsPage(951,15,-10,"ss"); 
+ss.setPageSE("Page=","");
+ss.setPageInput("Page");
+ss.setUrl("");
+ss.setPageFrist("","Frist");
+ss.setPagePrev("","Prev");
+ss.setPageNext("","Next");
+ss.setPageLast("","Last");
+ss.setPageText("[{$PageNum}]","第{$PageNum}页");
+ss.setPageTextF("第{$PageTextF}页"," {$PageTextF} ");
+ss.setPageSelect("为{$PageNum}","{$PageNum}");
+ss.setPageCss("","","");
+ss.setHtml("All:{$RecCount} {$PageCount}Pages Curr:{$Page}  {$PageSize}PerPage {$PageInput} {$PageSelect} {$PageFrist} {$PagePrev} {$PageNext} {$PageLast} {$PageText} ");
+ss.Write();
+</Script>
+</BODY></HTML>

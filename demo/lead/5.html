@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>ShowoPage Style With JS-lead样式-PowerBy Yehe(叶子)</TITLE>
+<link rel="stylesheet" type="text/css" href="style.css">
+<Script Language="JavaScript" type="text/JavaScript" src="../Cls_jsPage.js"></Script>
+</HEAD>
+<BODY>
+总记录951，每页21，上下显示5<BR><BR><BR><BR>
+<Script Language="JavaScript" type="text/JavaScript" >
+var ss= new Cls_jsPage(951,21,5,"ss"); 
+ss.setPageSE("/",".html");
+ss.setPageInput("Page");
+ss.setUrl("");
+ss.setPageFrist("<font color=888888 class=GrayFont face=webdings title=首页>9</font>","<font face=webdings title=首页>9</font>");
+ss.setPagePrev("<font color=888888 class=GrayFont face=webdings title=上页>7</font>","<font face=webdings title=上页>7</font>");
+ss.setPageNext("<font color=888888 class=GrayFont face=webdings title=下页>8</font>","<font face=webdings title=下页>8</font>");
+ss.setPageLast("<font color=888888 class=GrayFont face=webdings title=尾页>:</font>","<font face=webdings title=尾页>:</font>");
+ss.setPageText("{$PageNum}","<font color=Red class=RedFont>{$PageNum}</font>");
+ss.setPageTextF("&nbsp;{$PageTextF}","&nbsp;{$PageTextF}");
+ss.setPageSelect("{$PageNum}","{$PageNum}");
+ss.setPageCss("","","");
+ss.setHtml("<table width=100% border=0 cellspacing=0 cellpadding=0><tr><td>{$PageFrist} {$PagePrev} {$PageText} {$PageNext} {$PageLast} 共{$RecCount}主题 第{$Page}/{$PageCount}页 每页{$PageSize}条<td align=right><img src=../images/null.gif width=2 height=2><br></td></tr></table>");
+ss.Write();
+</Script>
+</BODY></HTML>

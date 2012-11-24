@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>YeatPage Style With JS-DV样式-PowerBy Yeat(叶子)</TITLE>
+<Style type="text/css">
+	A { TEXT-DECORATION: none; Color: #000000 }
+	A:hover { TEXT-DECORATION: underline;Color: #4455aa }
+	BODY { FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma; text-align: center; margin: 0; }
+	font { line-height: normal; }
+	TD { font-family: Tahoma; font-size: 12px; line-height: 15px; }
+	th { background-image: url(Skins/Default/css/default/bg1.gif); background-color: #4455aa; color: white; font-size: 12px; font-weight: bold; height:25;}
+	th a { COLOR: #FFFFFF; TEXT-DECORATION: none; }
+	th a:hover { COLOR: #FFFFFF; TEXT-DECORATION: underline; }
+	td.TableTitle1 { background-color: #6595D6; Color: #FFFFFF; }
+	td.TableBody1 { background-color: #FFFFFF; line-height: normal; }
+	.tableBorder5 { border: 1px #6595D6 solid; background-color: #D6E0EF; }
+</Style>
+<Script Language="JavaScript" type="text/JavaScript" src="../Cls_jsPage.js"></Script>
+</HEAD>
+<BODY>
+总记录951，每页21，上下显示5<BR><BR><BR><BR>
+<Script Language="JavaScript" type="text/JavaScript" >
+var ss= new Cls_jsPage(951,21,5,"ss"); 
+ss.setPageSE("20050421_",".html");
+ss.setPageInput("Page");
+ss.setUrl("");
+ss.setPageFrist("<img src='First.gif' border='0'>","<img src='First.gif' border='0'>");
+ss.setPagePrev("<img src='Previous.gif' >","<img src='Previous.gif' border='0'>");
+ss.setPageNext("<img src='Next.gif' border='0'>","<img src='Next.gif' border='0'>");
+ss.setPageLast("<img src='Last.gif' border='0'>","<img src='Last.gif' border='0'>");
+ss.setPageText("<font class='normalTextSmall'><u><b>{$PageNum}</b></u></font>","{$PageNum}");
+ss.setPageTextF("<td class='tablebody2'>&nbsp;{$PageTextF}&nbsp;</td>","<td class='tablebody1'>&nbsp;{$PageTextF}&nbsp;</td>");
+ss.setPageSelect("{$PageNum}","{$PageNum}");
+ss.setPageCss("PageInput","","");
+ss.setHtml("<table class='Tableborder5' border='0' cellpadding='0' cellspacing='1'><tr align='center'><td class='tabletitle1' title='主题数'>&nbsp;{$RecCount}&nbsp;</td><td class='tabletitle1' title='本页主题'>&nbsp;{$PageSize}&nbsp;</td><td class='tabletitle1'>&nbsp;{$Page}/{$PageCount}页&nbsp;</td><td class='tablebody1'>&nbsp;{$PageFrist}&nbsp;</td><td class='tablebody1'>&nbsp;{$PagePrev}&nbsp;</td>{$PageText}<td class='tablebody1'>&nbsp;{$PageNext}&nbsp;</td><td class='tablebody1'>&nbsp;{$PageLast}&nbsp;</td><td class='tablebody1'>{$PageInput}</td></table>");
+ss.Write();
+</Script>
+</BODY></HTML>
